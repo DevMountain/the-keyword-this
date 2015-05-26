@@ -68,7 +68,7 @@ var user = {
 };
 
 var getUsername = function(){
-  return this.username;
+  console.log(this.username);
 };
 
 setTimeout(getUsername, 5000);
