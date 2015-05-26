@@ -38,10 +38,10 @@
 var prius = Car('Toyota', 'Prius', 2011);
 var mustang = Car('Ford', 'Mustang', 2013);
 
-prius.move(); //increments prius' move property by 10. Returns the new move property.
-mustang.move(); //increments prius' move property by 10. Returns the new move property.
+prius.moveCar(); //increments prius' move property by 10. Returns the new move property.
+mustang.moveCar(); //increments prius' move property by 10. Returns the new move property.
 
-//Hint, you'll need to write a move function which is added to every object that is being returned from the Car function. You'll also need to use the 'this' keyword properly in order to make sure you're invoking move on the write object (prius vs mustang).
+//Hint, you'll need to write a moveCar function which is added to every object that is being returned from the Car function. You'll also need to use the 'this' keyword properly in order to make sure you're invoking moveCar on the write object (prius vs mustang).
 
 
 
