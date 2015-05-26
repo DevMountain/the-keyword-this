@@ -21,7 +21,7 @@
 //Create an object called user which has the following properties.
   //username --> which is a string
   //email --> which is a string
-  //getUsername --> which is a function that returns the current objects username property. *Don't use 'user' instead use the 'this' keyword*
+  //getUsername --> which is a function that returns the current object's username property. *Don't use 'user' instead use the 'this' keyword*
 
     //Code Here
 
@@ -33,6 +33,8 @@
 
 // Write the function definitions which will make the following function invocations function properly.
 
+  //Function Invocations Here
+
 var prius = Car('Toyota', 'Prius', 2011);
 var mustang = Car('Ford', 'Mustang', 2013);
 
@@ -41,10 +43,10 @@ mustang.move(); //increments prius' move property by 10. Returns the new move pr
 
 //Hint, you'll need to write a move function which is added to every object that is being returned from the Car function. You'll also need to use the 'this' keyword properly in order to make sure you're invoking move on the write object (prius vs mustang).
 
-  //Code Here
 
 
 //Continuation of previous problem
+
 var getYear = function(){
   return this.year;
 };
@@ -54,7 +56,10 @@ var getYear = function(){
   //Code Here
 
 
+
 //New Problem
+
+
 
 var user = {
   username: 'iliketurtles',
