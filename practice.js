@@ -35,8 +35,8 @@
 
   //Function Invocations Here
 
-var prius = Car('Toyota', 'Prius', 2011);
-var mustang = Car('Ford', 'Mustang', 2013);
+var prius = new Car('Toyota', 'Prius', 2011);
+var mustang = new Car('Ford', 'Mustang', 2013);
 
 prius.moveCar(); //increments prius' move property by 10. Returns the new move property.
 mustang.moveCar(); //increments mustang' move property by 10. Returns the new move property.
