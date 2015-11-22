@@ -1,7 +1,13 @@
 <img src="https://devmounta.in/img/logowhiteblue.png" width="250" align="right">
 
-# the-keyword-this
+the-keyword-this
+================
 
+##Objective
+Better understand the `this` keywork in Javascript by completing a series of activities
+
+##Directions
+Fork this repo, clone your fork, then open practice.js and complete all the activities.
 
 ## Contributions
 If you see a problem or a typo, please fork, make the necessary changes, and create a pull request so we can review your changes and merge them into the master repo and branch.
