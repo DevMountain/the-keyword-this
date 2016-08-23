@@ -4,7 +4,7 @@ the-keyword-this
 ================
 
 ##Objective
-Better understand the `this` keywork in Javascript by completing a series of activities
+Better understand the `this` keyword in Javascript by completing a series of activities
 
 ##Directions
 Fork this repo, clone your fork, then open practice.js and complete all the activities.

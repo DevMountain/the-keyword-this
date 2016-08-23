@@ -71,7 +71,7 @@ var getMyUsername = function() {
 
 var userName = getMyUsername(); //Fix this
 
-//Above you're given an object, a function, and a setTimeout invocation. After 5 seconds, what will the getUsername function return?
+//Above you're given an object, and  a function. What will the getUsername function return?
 //Note(no tests)
   //Answer Here
 
