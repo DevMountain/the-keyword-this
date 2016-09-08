@@ -35,11 +35,11 @@
 
   //Function Invocations Here
 
-var prius = new Car('Toyota', 'Prius', 2011);
-var mustang = new Car('Ford', 'Mustang', 2013);
+// var prius = new Car('Toyota', 'Prius', 2011);
+// var mustang = new Car('Ford', 'Mustang', 2013);
 
-prius.moveCar(); //increments prius' move property by 10. Returns the new move property.
-mustang.moveCar(); //increments mustang' move property by 10. Returns the new move property.
+// prius.moveCar(); //increments prius' move property by 10. Returns the new move property.
+// mustang.moveCar(); //increments mustang' move property by 10. Returns the new move property.
 
 //Hint, you'll need to add a move property and write a moveCar function which is added to every object that is being returned from the Car function. You'll also need to use the 'this' keyword properly in order to make sure you're invoking moveCar on the right object (prius vs mustang).
 
@@ -59,6 +59,7 @@ var getYear = function(){
 
 //New Problem
 
+
 var myUser = {
  username: 'iliketurtles',
  age: 13,
@@ -71,12 +72,11 @@ var getMyUsername = function() {
 
 var userName = getMyUsername(); //Fix this
 
-//Above you're given an object, a function, and a setTimeout invocation. After 5 seconds, what will the getUsername function return?
+//Above you're given an object and a function. What does invoking getMyUsername return?
 //Note(no tests)
   //Answer Here
 
-//In the example above, what is the 'this keyword' bound to when getUsername runs?
-
+//In the example above, what is the 'this keyword' bound to when getMyUsername runs?
   //Answer Here
 
 //Fix the getMyUsername invocation so that userName will be equal to 'iliketurtles'.
