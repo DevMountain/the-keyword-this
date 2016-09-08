@@ -59,6 +59,7 @@ var getYear = function(){
 
 //New Problem
 
+
 var myUser = {
  username: 'iliketurtles',
  age: 13,
@@ -71,12 +72,11 @@ var getMyUsername = function() {
 
 var userName = getMyUsername(); //Fix this
 
-//Above you're given an object, a function, and a setTimeout invocation. After 5 seconds, what will the getUsername function return?
+//Above you're given an object and a function. What does invoking getMyUsername return?
 //Note(no tests)
   //Answer Here
 
-//In the example above, what is the 'this keyword' bound to when getUsername runs?
-
+//In the example above, what is the 'this keyword' bound to when getMyUsername runs?
   //Answer Here
 
 //Fix the getMyUsername invocation so that userName will be equal to 'iliketurtles'.
