@@ -36,7 +36,7 @@ describe('practice', function () {
         describe('return object', function () {
             it('should have a moveCar method', function () {
                 var car = new Car('Toyota', 'Prius', 2015);
-                expect(car.hasOwnProperty('moveCar')).toBe(true);
+                expect(typeof car.moveCar).toBe('function');
                 expect(car.moveCar).toEqual(jasmine.any(Function));
             })
             describe('moveCar', function () {
