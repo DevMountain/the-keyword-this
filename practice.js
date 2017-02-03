@@ -1,19 +1,22 @@
 //We're in a job interview. Answer the following questions (try to not look at your notes unless you have to).
   // 1) What is the purpose of the 'this keyword'?
 
-      //Answer
+      //to help us refer to a certian item
 
   // 2) What are the four rules that govern what the 'this keyword' is bound to and describe each?
 
-      //Answer
+      //explicet --- tell it exactlly what you want
+      //implicit --- suggest what you want
+      //default --- defalts to the window
+      //name/ constructors --- build objects
 
   // 3) What is the difference between call and apply?
 
-      //Answer
+      //call passes in variables, apply passes in array
 
   // 4) What does .bind do?
 
-      //Answer
+      //it attaches a specific value to an object;
 
 
 //Next Problem
@@ -23,20 +26,38 @@
   //email --> which is a string
   //getUsername --> which is a function that returns the current object's username property. *Don't use 'user' instead use the 'this' keyword*
 
-    //Code Here
+    var user = {
+       username: "jonnyroggers",
+       email: "jonny@gmail.com",
+       getUsername: function() {
+         return this.username;
+       }
+    }
 
 //Now, invoke the getUsername method and verify you got the username of the object and not anything else.
 
 
-//Next Problem
+      user.getUsername();
+
 
 
 // Write the function definitions which will make the following function invocations function properly.
 
-  //Function Invocations Here
+  function Car(make, model, year) {
+        this.make = make;
+        this.model = model;
+        this.year = year;
+        this.move = 0;
+        this.moveCar = function() {
+           return this.move += 10;
+        },
+        this.taunt = 'i hate you'
+  }
 
 var prius = new Car('Toyota', 'Prius', 2011);
+console.log(prius);
 var mustang = new Car('Ford', 'Mustang', 2013);
+console.log(mustang);
 
 prius.moveCar(); //increments prius' move property by 10. Returns the new move property.
 mustang.moveCar(); //increments mustang' move property by 10. Returns the new move property.
@@ -69,14 +90,27 @@ var getMyUsername = function() {
  return this.username;
 };
 
-var userName = getMyUsername(); //Fix this
+var userName = getMyUsername.call(myUser); //Fix this
 
 //Above you're given an object, and  a function. What will the getMyUsername function return?
 //Note(no tests)
-  //Answer Here
+  //iliketurtles
 
 //In the example above, what is the 'this keyword' bound to when getMyUsername runs?
 
-  //Answer Here
+  //myUser
 
 //Fix the getMyUsername invocation so that userName will be equal to 'iliketurtles'.
+
+
+
+
+
+
+
+
+
+
+
+
+//plz
