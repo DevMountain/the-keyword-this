@@ -45,8 +45,6 @@ mustang.moveCar(); //increments mustang' move property by 10. Returns the new mo
 
 
 
-
-
 //Continuation of previous problem
 
 var getYear = function(){
@@ -81,4 +79,6 @@ var userName = getMyUsername(); //Fix this
 
   //Answer Here
 
+
 //Fix the getMyUsername invocation (stored in the userName variable, at the bottom of the above code) so that userName will be equal to 'iliketurtles'.
+
