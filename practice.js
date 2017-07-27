@@ -7,7 +7,7 @@
 
       //Answer
 
-  // 4) What does .bind do?
+  // 3) What does .bind do?
 
       //Answer
 
