@@ -47,10 +47,14 @@ var getYear = function(){
   return this.year;
 };
 
-//Above you're given the getYear function. Call the getYear function with the prius then the mustang objects being the focal objects. *Don't add getYear as a property on both objects*.
+// Above you are given a getYear function.  Use the bind function to bind the prius object to the function and save it in a variable called getPriusYear
+// Then use the bind function to bind the mustang to the function and save it in a varabile called getMustangYear
+// Console Log the results of the getPriusYear and getMustangYear to see that they are returning the correct years.
+
 
 //Note(no tests)
   //Code Here
+
 
 
 //New Problem
