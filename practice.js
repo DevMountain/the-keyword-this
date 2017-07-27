@@ -7,10 +7,6 @@
 
       //Answer
 
-  // 3) What is the difference between call and apply?
-
-      //Answer
-
   // 4) What does .bind do?
 
       //Answer
